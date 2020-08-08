@@ -1,0 +1,11 @@
+[package]
+name = "binary-gap"
+version = "0.1.0"
+authors = ["Geoff Johnson <geoff.jay@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[lib]
+name = "binary_gap"
+path = "./lib.rs"

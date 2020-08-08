@@ -2,7 +2,7 @@
 
 extern crate test;
 
-fn solution(n: i32) -> i32 {
+pub fn solution(n: i32) -> i32 {
     let mut gap = 0;
     let mut largest = 0;
     let mut num = n;
@@ -21,12 +21,12 @@ fn solution(n: i32) -> i32 {
             // start the count once a 1 has been seen
             init = true;
         }
-        num = num >> 1;
+        num >>= 1;
         if num == 0 {
             break;
         }
     }
-    return largest;
+    largest
 }
 
 #[cfg(test)]
