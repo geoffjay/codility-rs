@@ -26,7 +26,7 @@ fn solution(n: i32) -> i32 {
             break;
         }
     }
-    return largest
+    return largest;
 }
 
 #[cfg(test)]
@@ -55,8 +55,6 @@ mod tests {
 
     #[bench]
     fn bench_solution_many(b: &mut Bencher) {
-        b.iter(|| {
-            (0..10000).map(solution).collect::<Vec<i32>>()
-        })
+        b.iter(|| (0..10000).map(solution).collect::<Vec<i32>>())
     }
 }
