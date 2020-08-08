@@ -11,7 +11,6 @@ env:
 
 jobs:
   build:
-    name: Codility Lessons in Rust
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -23,7 +22,7 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --verbose --all-features --no-fail-fast
+          args: --verbose --all-features
 
   coverage:
     runs-on: ubuntu-latest
@@ -36,7 +35,7 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: test
-          args: --all-features --no-fail-fast
+          args: --verbose --lib --all-features
         env:
           CARGO_INCREMENTAL: '0'
           RUSTFLAGS: '-Zprofile -Ccodegen-units=1 -Cinline-threshold=0 -Clink-dead-code -Coverflow-checks=off -Cpanic=abort -Zpanic_abort_tests'
