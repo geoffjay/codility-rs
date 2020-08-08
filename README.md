@@ -11,3 +11,18 @@ Requires `nightly` toolchain for `![features(test)]`.
 ```shell
 cargo build
 ```
+
+## Testing
+
+```shell
+cargo test
+```
+
+## Benchmarks
+
+The benchmark tests have been ignored because the flag `-Zpanic_abort_tests` that's needed for `grcov` causes them to
+fail. To run these add `--ignored` to the test.
+
+```shell
+cargo test -- --ignored
+```

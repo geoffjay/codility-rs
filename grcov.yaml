@@ -1,7 +1,7 @@
 ignore-not-existing: true
 llvm: true
 output-type: lcov
-output-file: ./lcov.info
+output-path: ./
 ignore:
   - "/*"
   - "../*"

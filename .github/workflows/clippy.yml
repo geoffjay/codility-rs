@@ -1,6 +1,6 @@
 on: [push]
 
-name: clippy
+name: Clippy
 
 jobs:
   clippy:

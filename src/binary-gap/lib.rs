@@ -49,11 +49,13 @@ mod tests {
     }
 
     #[bench]
+    #[ignore]
     fn bench_solution(b: &mut Bencher) {
         b.iter(|| solution(204913));
     }
 
     #[bench]
+    #[ignore]
     fn bench_solution_many(b: &mut Bencher) {
         b.iter(|| (0..10000).map(solution).collect::<Vec<i32>>())
     }
