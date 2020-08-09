@@ -1,6 +1,7 @@
 ![Rust](https://github.com/geoffjay/codility-rs/workflows/Rust/badge.svg)
 ![Security audit](https://github.com/geoffjay/codility-rs/workflows/Security%20Audit/badge.svg)
 ![clippy](https://github.com/geoffjay/codility-rs/workflows/Clippy/badge.svg)
+[![codecov](https://codecov.io/gh/geoffjay/codility-rs/branch/master/graph/badge.svg)](https://codecov.io/gh/geoffjay/codility-rs)
 
 ---
 
