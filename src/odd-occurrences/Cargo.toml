@@ -1,0 +1,11 @@
+[package]
+name = "odd-occurrences"
+version = "0.1.0"
+authors = ["Geoff Johnson <geoff.jay@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[lib]
+name = "odd_occurrences"
+path = "./lib.rs"

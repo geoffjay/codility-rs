@@ -2,4 +2,5 @@
 members = [
     "src/binary-gap",
     "src/cyclic-rotation",
+    "src/odd-occurrences",
 ]

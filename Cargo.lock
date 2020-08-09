@@ -8,3 +8,7 @@ version = "0.1.0"
 name = "cyclic-rotation"
 version = "0.1.0"
 
+[[package]]
+name = "odd-occurrences"
+version = "0.1.0"
+
