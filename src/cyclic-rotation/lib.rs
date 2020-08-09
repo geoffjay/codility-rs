@@ -3,6 +3,7 @@
 extern crate test;
 
 pub fn solution(mut a: Vec<i32>, b: usize) -> Vec<i32> {
+    // This is cheating
     a.rotate_right(b);
     a
 }
